@@ -1,0 +1,48 @@
+/* Empty. Add your own CSS if you like */
+.bar-footer{
+   
+    background-color: black;
+    color:blue
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-footer{
+    width: 30%;
+}
+
+.btn-home{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.btn-categories{
+    margin-left: 2px;
+    margin-right: 2px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.btn-car{
+    margin-right: 2px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.btn-Account{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.wrapper-producto{
+    height:  calc(100vh - 97px);;
+    overflow-y: scroll;
+}
